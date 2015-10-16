@@ -15,7 +15,7 @@ body
 	color: #6c6c6c
 }
 
-h1, h2, h3
+h1, h2, h3, h4
 {
 	margin: 0;
 	padding: 0;
@@ -136,7 +136,6 @@ ul.style1 h3
 {
 	padding: 1.2em 0em 1em 0em;
 	letter-spacing: 0.10em;
-	text-transform: uppercase;
 	font-size: 1.2em;
 	font-weight: 600;
 	color: #454445;
@@ -316,7 +315,6 @@ ul.contact li a.icon-rss:before
 	transition: opacity 0.25s ease-in-out;
 	letter-spacing: 0.20em;
 	text-decoration: none;
-	text-transform: uppercase;
 	font-weight: 600;
 	color: #FFF;
 }
@@ -350,6 +348,12 @@ ul.contact li a.icon-rss:before
 {
 	font-weight: 400;
 	font-size: 2.8em;
+	color: #323232;
+}
+.title h3
+{
+	font-weight: 400;
+	font-size: 2em;
 	color: #323232;
 }
 
@@ -393,7 +397,6 @@ ul.contact li a.icon-rss:before
 {
 	display: inline-block;
 	font-size: 2.5em;
-	text-transform: uppercase;
 	font-weight: 700;
 	color: #ED7070;
 	padding-right: 0.50em;
@@ -458,7 +461,6 @@ ul.contact li a.icon-rss:before
 	letter-spacing: 0.10em;
 	text-decoration: none;
 	font-size: 1em;
-	text-transform: uppercase;
 	outline: 0;
 	color: #FFF;
 }
@@ -527,7 +529,6 @@ ul.contact li a.icon-rss:before
 {
 	display: block;
 	padding-top: 0.20em;
-	text-transform: uppercase;
 	font-size: 1.2em;
 	color: #A2A2A2;
 }
@@ -575,16 +576,17 @@ ul.contact li a.icon-rss:before
 
 	#stwo-col
 	{
-		margin-top: 2em;
+		margin-top: 1em;
+		padding-left: 7em;
 	}
 
 	#stwo-col h2
 	{
 		display: block;
 		padding-bottom: 1.5em;
+		padding-left: 2em;
 		letter-spacing: 0.10em;
-		text-transform: uppercase;
-		font-size: 1.2em;
+		font-size: 1.5em;
 		font-weight: 600;
 		color: #454445;
 	}
@@ -843,7 +845,6 @@ ul.contact li a.icon-rss:before
 {
 	display: block;
 	padding-top: 1em;
-	text-transform: uppercase;
 	font-size: 0.80em;
 	color: rgba(255,255,255,0.5);
 }
@@ -890,7 +891,6 @@ ul.contact li a.icon-rss:before
 {
 	display: block;
 	padding-top: 0.20em;
-	text-transform: uppercase;
 	font-size: 1.2em;
 	color: #A2A2A2;
 }

@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="http://eecs.berkeley.edu/favicon.ico" type="image/x-icon">
+		<title>EE16A: Designing Information Devices and Systems I, Fall 2015</title>
+        <link href="bootstrap-dist/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+
+	</head>
+
+	<body data-spy="scroll" data-target="#navscroll">
+
+<div id="navscroll">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="." style="color: #000;"><strong>EE16A</strong> | Fall 2015</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse" >
+          <ul class="nav navbar-nav pull-right">
+            <li><a id="na1" href="#schedule">Schedule</a></li>
+            <li><a id="na2" href="#homework">Homework</a></li>
+            <!-- <li><a id="na3" href="#notes">Notes</a></li>-->
+            <li><a id="na4" href="#staff">Staff</a></li>
+            <li><a id="na5" href="#resources">Resources</a></li>
+            <li><a id="na6" href="#policies">Policies</a></li>
+          </ul>
+        </div>
+</div>
+      </div>
+    </nav>
+    </div>
+
+<div class='container'>
+<div class="main-container">
+
+<div class='row'>
+<h1><strong>EE 16A</strong> | Designing Information Devices and Systems I</h1>
+<h2>Fall 2015</h2>
+</div>
+
+
+<div class='row'>
+<h2>Calendar</h2>
+<div class="table-responsive">
+<table   class="table table-bordered table-striped table-hover" >
+  <thead>
+  <tr>
+    <th class='col-md-1 center'><b>Wk</b></th>
+    <th class='col-md-1'><b>Date</b></th>
+    <th class='col-md-4'><b>Lecture Topic</b></th>
+    <th class='col-md-2'><b>Section</b></th>
+    <th class='col-md-2'><b>Lab</b></th>
+    <th class='col-md-2'><b>Homework</b></th>
+  </tr>
+  </thead>
+
+  <tbody id='wk00'>
+  <tr>
+    <td class="center">0</td>
+    <td>08/27 Th</td>
+    <td>Introduction to Class: Welcome to EE16A!<br><a href="https://dl.dropboxusercontent.com/u/62717904/Lecture0_Admin.pdf" download>(Slides 1)</a><a href="https://dl.dropboxusercontent.com/u/62717904/Lectore0_Intro.pdf" download>(Slides 2)</a></td>
+    <td>Section 0 <br/> <a href="dis/release/dis0B.pdf">Installation Guide</a> </td>
+    <td><a href="lab/lab0/iPython%20Tutorial%20EE16.ipynb" download>Lab 0: iPython Notebook Tutorial</a></td>
+    <td><a href="#homework">Homework 0</a></td>
+
+  </tr>
+  </tbody>
+
+
+  <tbody id='wk01'>
+  <tr>
+    <td rowspan="2" class="center">1</td>
+    <td>09/01 Tu</td>
+    <td>Introduction to Imaging and Tomography<br><a href="http://inst.eecs.berkeley.edu/~ee16a/fa15/lecture/imaging_intro.pptx" download>(Slides 1)</a></td>
+    <td>Section 1A:<br/> <a href="dis/release/dis1A.pdf">dis1A.pdf</a> </td>
+    <td rowspan="2"><a href="lab/lab0/EE16A_Equipment_Overview.ipynb" download>Lab 0.9: Equipment Overview</a></td>
+    <td rowspan="2"><a href="#homework">Homework 1</a></td>
+  </tr>
+  <tr>
+    <td>09/03 Th</td>
+    <td>Vector and Matrices, Pt 1</td>
+    <td>Section 1B:<br/> <a href="dis/release/dis1B.pdf">dis1B.pdf</a> </td>
+  </tr>
+  </tbody>
+
+
+  <tbody id='wk02'>
+  <tr>
+    <td rowspan="2" class="center">2</td>
+    <td>09/08 Tu</td>
+    <td>Vector and Matrices, Pt 2</td>
+    <td>Section 2A:<br/> <a href="dis/release/dis2A.pdf">dis2A.pdf</a></td>
+    <td rowspan="2"><a href="http://www-inst.eecs.berkeley.edu/~ee16a/fa15/lab/Imaging_Module/ee16a_imaging_lab1.zip" download>Imaging Lab 1: Building a Light Sensor</a></td>
+    <td rowspan="2"><a href="#homework">Homework 2</a></td>
+  </tr>
+  <tr>
+    <td>09/10 Th</td>
+    <td>Vector and Matrices, Pt 3</td>
+    <td>Section 2B:<br/> <a href="dis/release/dis2B.pdf">dis2B.pdf</a></td>
+  </tr>
+  </tbody>
+
+  <tbody id='wk03'>
+  <tr>
+    <td rowspan="2" class="center">3</td>
+    <td>09/15 Tu</td>
+    <td>Graphs and Flows</td>
+    <td>Section 3A:<br/> Lecture Review (no worksheet)</td>
+    <td rowspan="2"><a href="http://www-inst.eecs.berkeley.edu/~ee16a/fa15/lab/Imaging_Module/ee16a_imaging_lab2.zip" download>Imaging Lab 2: Single Pixel Scanning</a></td>
+    <td rowspan="2"><a href="#homework">Homework 3</a></td>
+  </tr>
+  <tr>
+    <td>09/17 Th</td>
+    <td>PageRank and Eigenvalues/Eigenvectors, Pt 1</td>
+    <td>Section 3B:<br/> <a href="dis/release/dis3B.pdf">dis3B.pdf</a></td>
+  </tr>
+  </tbody>
+
+  <tbody id='wk04'>
+  <tr>
+    <td rowspan="2" class="center">4 <br><br> Midterm on Wed 9/23 (8-10PM)</br></td>
+    <td>09/22 Tu</td>
+    <td>Pagerank and Eigenvalues/Eigenvectors, Pt 2</td>
+    <td>Section 4A:<br/> Midterm review (no worksheet)</td>
+    <td rowspan="2"><a href="http://www-inst.eecs.berkeley.edu/~ee16a/fa15/lab/Imaging_Module/ee16a_imaging_lab3.zip" download>Imaging Lab 3: Multi-Pixel Scanning</a></td>
+    <td rowspan="2"><a href="#homework">Homework 4</a></td>
+  </tr>
+  <tr>
+    <td>09/24 Th</td>
+    <td>Buffer</td>
+    <td>Section 4B:<br/> <a href="dis/release/dis4B.pdf">dis4B.pdf</a></td>
+  </tr>
+  </tbody>
+
+  <tbody id='wk05'>
+  <tr>
+    <td rowspan="2" class="center">5</td>
+    <td>09/29 Tu</td>
+    <td>Introduction to Touch Screens and Design</td>
+    <td>Section 5A:<br/> TBA</td>
+    <td rowspan="2"><a href="http://www-inst.eecs.berkeley.edu/~ee16a/fa15/lab/touchscreen/ee16a_touchscreen_lab1.zip" download>Touch Screen Lab 1: LED Fader and Resistive Touch Screen</a></td>
+    <td rowspan="2"><a href="#homework">Homework 5</a></td>
+  </tr>
+  <tr>
+    <td>10/01 Th</td>
+    <td>Why Power Transmission is at High Voltage (AC versus DC)</td>
+    <td>Section 5B:<br/> TBA</td>
+  </tr>
+  </tbody>
+
+  <tbody id='wk06'>
+  <tr>
+    <td rowspan="2" class="center">6</td>
+    <td>10/06 Tu</td>
+    <td>KCL/KVL and Voltage/Current Dividers</td>
+    <td>Section 6A:<br/> TBA</td>
+    <td rowspan="2"><a href="http://www-inst.eecs.berkeley.edu/~ee16a/fa15/lab/touchscreen/ee16a_touchscreen_lab2.zip" download>Touch Screen Lab 2: Capacitive Touch Screen</a></td>
+    <td rowspan="2"><a href="#homework">Homework 6</a></td>
+  </tr>
+  <tr>
+    <td>10/08 Th</td>
+    <td>Equivalence</td>
+    <td>Section 6B:<br/> TBA</td>
+  </tr>
+  </tbody>
+
+  <tbody id='wk07'>
+  <tr>
+    <td rowspan="2" class="center">7</td>
+    <td>10/13 Tu</td>
+    <td>Capacitance</td>
+    <td>Section 7A:<br/> TBA</td>
+    <td rowspan="2">Touch Screen: Lab 2 Continued</td>
+    <td rowspan="2">Homework 7</td>
+  </tr>
+  <tr>
+    <td>10/15 Th</td>
+    <td>Amplifiers</td>
+    <td>Section 7B:<br/> TBA</td>
+  </tr>
+  </tbody>
+
+  <tbody id='wk08'>
+  <tr>
+    <td rowspan="2" class="center">8</td>
+    <td>10/20 Tu</td>
+    <td>Op-Amps</td>
+    <td>Section 8A:<br/> TBA</td>
+    <td rowspan="2">Locationing<br/>Lab 1</td>
+    <td rowspan="2">Homework 8</td>
+  </tr>
+  <tr>
+    <td>10/22 Th</td>
+    <td>Op-Amp Circuits</td>
+    <td>Section 8B:<br/> TBA</td>
+  </tr>
+  </tbody>
+
+  <tbody id='wk09'>
+  <tr>
+    <td rowspan="2" class="center">9</td>
+    <td>10/27 Tu</td>
+    <td>Correlation and Optimization, Pt 1</td>
+    <td>Section 9A:<br/> TBA</td>
+    <td rowspan="2">Locationing<br/>Lab 2</td>
+    <td rowspan="2">Homework 9</td>
+  </tr>
+  <tr>
+    <td>10/29 Th</td>
+    <td>Correlation and Optimization, Pt 2</td>
+    <td>Section 9B:<br/> TBA</td>
+  </tr>
+  </tbody>
+
+  <tbody id='wk10'>
+  <tr>
+    <td rowspan="2" class="center">10</td>
+    <td>11/03 Tu</td>
+    <td>Correlation and Optimization, Pt 3</td>
+    <td>Section 10A:<br/> TBA</td>
+    <td rowspan="2">Locationing<br/>Lab 3</td>
+    <td rowspan="2">Homework 10</td>
+  </tr>
+  <tr>
+    <td>11/05 Th</td>
+    <td>Introduction to Wireless</td>
+    <td>Section 10B:<br/> TBA</td>
+  </tr>
+  </tbody>
+
+  <tbody id='wk11'>
+  <tr>
+    <td rowspan="2" class="center">11</td>
+    <td>11/10 Tu</td>
+    <td>Linear Systems and Frequency Domain, Pt 1</td>
+    <td>Section 11A:<br/> TBA</td>
+    <td rowspan="2">Wireless<br/>Lab 1</td>
+    <td rowspan="2">Homework 11</td>
+  </tr>
+  <tr>
+    <td>11/12 Th</td>
+    <td>Linear Systems and Frequency Domain, Pt 2</td>
+    <td>Section 11B:<br/> TBA</td>
+  </tr>
+  </tbody>
+
+  <tbody id='wk12'>
+  <tr>
+    <td rowspan="2" class="center">12 <br> Midterm on Wed 11/18 (8-10PM)</td>
+    <td>11/17 Tu</td>
+    <td>Linear Systems and Frequency Domain, Pt 3</td>
+    <td>Section 12A:<br/> TBA</td>
+    <td rowspan="2">Wireless<br/>Lab 2</td>
+    <td rowspan="2">Homework 12</td>
+  </tr>
+  <tr>
+    <td>11/19 Th</td>
+    <td>Linear Systems and Frequency Domain, Pt 4</td>
+    <td>Section 12B:<br/> TBA</td>
+  </tr>
+  </tbody>
+
+  <tbody id='wk13'>
+  <tr>
+    <td rowspan="2" class="center">13</td>
+    <td>11/24 Tu</td>
+    <td>Linear Systems and Frequency Domain, Pt 5</td>
+    <td>Section 13A:<br/> TBA</td>
+    <td rowspan="2">Makeup Labs</td>
+    <td rowspan="2">Homework 13</td>
+  </tr>
+  <tr>
+    <td>11/26 Th</td>
+    <td>THANKSGIVING BREAK: NO CLASS</td>
+    <td>Section 13B:<br/> TBA</td>
+  </tr>
+  </tbody>
+
+  <tbody id='wk14'>
+  <tr>
+    <td rowspan="2" class="center">14</td>
+    <td>12/01 Tu</td>
+    <td>Linear Systems and Frequency Domain, Pt 6</td>
+    <td>Section 14A:<br/> TBA</td>
+    <td rowspan="2">Finish Wireless Lab 2 and Make Up Labs</td>
+    <td rowspan="2">Homework 14</td>
+  </tr>
+  <tr>
+    <td>12/03 Th</td>
+    <td>Buffer</td>
+    <td>Section 14B:<br/> TBA</td>
+  </tr>
+  </tbody>
+
+
+</table>
+</div>
+</div>
+
+<div class='row'>
+<a class="anchor" id="schedule"></a>
+<h2>Weekly Schedule</h2>
+<div class="scrollable">
+<iframe src="https://www.google.com/calendar/embed?title=Weekly%20Schedule%20for%20EE%2016A&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=berkeley.edu_bg4bm7rhli2gm36a102foqf8tc%40group.calendar.google.com&amp;color=%235229A3&amp;src=berkeley.edu_04qk8f532jm9lbpin52sosas8c%40group.calendar.google.com&amp;color=%232952A3&amp;src=berkeley.edu_qaetrtl02kirs2f6hjpq26luck%40group.calendar.google.com&amp;color=%231B887A&amp;src=berkeley.edu_mu6lss6a4pgfg8jus5dp38gaco%40group.calendar.google.com&amp;color=%23853104&amp;src=berkeley.edu_de8qi48agklmg7kv8ct2aa91pk%40group.calendar.google.com&amp;color=%23B1440E&amp;src=berkeley.edu_uhs27s2bhkr7md65s4bq997eks%40group.calendar.google.com&amp;color=%2329527A&amp;src=berkeley.edu_ij3t7hbsj2lm3rtuhhdea0fsp4%40group.calendar.google.com&amp;color=%23875509&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
+</div>
+
+<div class='row'>
+<a class="anchor" id="homework"></a>
+<h2>Homework</h2>
+<ul>
+<!-- CourseManager Start hws -->
+<!-- CourseManager Item -7 -->
+
+<li>
+    <a name="hw7"></a>
+    <a href="hw/hw7/prob7.pdf">
+        Homework #7
+        (due 19 October 2015)
+    </a>
+    
+    
+        
+    
+        
+    
+    
+</li>
+<!-- CourseManager Item -6 -->
+
+<li>
+    <a name="hw6"></a>
+    <a href="hw/hw6/prob6.pdf">
+        Homework #6
+        (due 14 October 2015)
+    </a>
+    
+    
+        
+    
+        
+            (<a href="hw/hw6/sol6.pdf" >solutions</a>)
+        
+    
+    
+        (<a href="grade/hw6.html">grading form</a>)
+    
+</li>
+<!-- CourseManager Item -5 -->
+
+<li>
+    <a name="hw5"></a>
+    <a href="hw/hw5/prob5.pdf">
+        Homework #5
+        (due 8 October 2015)
+    </a>
+    
+    
+        
+    
+        
+            (<a href="hw/hw5/prob5.zip" >zip</a>)
+        
+    
+        
+            (<a href="hw/hw5/prob5.ipynb" download>ipynb</a>)
+        
+    
+        
+            (<a href="hw/hw5/sol5.pdf" >solutions</a>)
+        
+    
+        
+            (<a href="hw/hw5/sol5.ipynb" download>ipynb-solutions</a>)
+        
+    
+    
+        (<a href="grade/hw5.html">grading form</a>)
+    
+</li>
+<!-- CourseManager Item -4 -->
+
+<li>
+    <a name="hw4"></a>
+    <a href="hw/hw4/prob4.pdf">
+        Homework #4
+        (due 28 September 2015)
+    </a>
+    
+    
+        
+    
+        
+            (<a href="hw/hw4/prob4.ipynb" download>ipynb</a>)
+        
+    
+        
+            (<a href="hw/hw4/prob4.zip" >zip</a>)
+        
+    
+        
+            (<a href="hw/hw4/sol4.pdf" >solutions</a>)
+        
+    
+        
+            (<a href="hw/hw4/mt1_sol.pdf" >midterm-solutions</a>)
+        
+    
+    
+        (<a href="grade/hw4.html">grading form</a>)
+    
+</li>
+<!-- CourseManager Item -3 -->
+
+<li>
+    <a name="hw3"></a>
+    <a href="hw/hw3/prob3.pdf">
+        Homework #3
+        (due 21 September 2015)
+    </a>
+    
+    
+        
+    
+        
+            (<a href="hw/hw3/prob3.ipynb" download>ipynb</a>)
+        
+    
+        
+            (<a href="hw/hw3/sol3.pdf" >solutions</a>)
+        
+    
+        
+            (<a href="hw/hw3/sol3.ipynb" download>ipynb-solutions</a>)
+        
+    
+    
+        (<a href="grade/hw3.html">grading form</a>)
+    
+</li>
+<!-- CourseManager Item -2 -->
+
+<li>
+    <a name="hw2"></a>
+    <a href="hw/hw2/prob2.pdf">
+        Homework #2
+        (due 14 September 2015)
+    </a>
+    
+    
+        
+    
+        
+            (<a href="hw/hw2/prob2.ipynb" download>ipynb</a>)
+        
+    
+        
+            (<a href="hw/hw2/sol2.pdf" >solutions</a>)
+        
+    
+        
+            (<a href="hw/hw2/sol2.ipynb" download>ipynb-solutions</a>)
+        
+    
+        
+            (<a href="hw/hw2/prob2.zip" >zip</a>)
+        
+    
+    
+        (<a href="grade/hw2.html">grading form</a>)
+    
+</li>
+<!-- CourseManager Item -1 -->
+
+<li>
+    <a name="hw1"></a>
+    <a href="hw/hw1/prob1.pdf">
+        Homework #1
+        (due 7 September 2015)
+    </a>
+    
+    
+        
+    
+        
+            (<a href="hw/hw1/prob1.ipynb" download>ipynb</a>)
+        
+    
+        
+            (<a href="hw/hw1/sol1.pdf" >solutions</a>)
+        
+    
+        
+            (<a href="hw/hw1/sol1.ipynb" download>ipynb-solutions</a>)
+        
+    
+    
+        (<a href="grade/hw1.html">grading form</a>)
+    
+</li>
+<!-- CourseManager Item -0 -->
+
+<li>
+    <a name="hw0"></a>
+    <a href="hw/hw0/prob0.pdf">
+        Homework #0
+        (due 31 August 2015)
+    </a>
+    
+    
+        
+    
+        
+            (<a href="hw/hw0/prob0.ipynb" download>ipynb</a>)
+        
+    
+        
+            (<a href="hw/hw0/sol0.pdf" >solutions</a>)
+        
+    
+        
+            (<a href="hw/hw0/sol0.ipynb" download>ipynb-solutions</a>)
+        
+    
+    
+        (<a href="grade/hw0.html">grading form</a>)
+    
+</li>
+<!-- CourseManager End -->
+</ul>
+</div>
+<!--
+<div class='row'>
+<a class="anchor" id="notes"></a>
+<h2>Notes</h2>
+<ul>
+<li><a href="notes/Note_Lin_Alg_Release1.pdf"> Note #1 </a></li>
+<li><a href="notes/Note_Lin_Alg_Release2.pdf"> Note #2 </a></li>
+<li><a href="notes/Note_Lin_Alg_Release3.pdf"> Note #3 </a></li>
+</ul>
+</div>
+-->
+
+<div class='row'>
+<a class="anchor" id="staff"></a>
+<h2>Course Staff</h2>
+<h3>Instructors</h3>
+<div class='row'>
+  <div class='col-md-3 col-md-offset-3 center col-sm-4 col-sm-offset-2 col-xs-6'>
+    <a target="_blank" class='img-link' href="http://www.eecs.berkeley.edu/~sahai/"><img class='headshot img-circle' src='src/sahai.jpg'/></a>
+    <br/><a target="_blank" href="http://www.eecs.berkeley.edu/~sahai/">Anant Sahai</a></strong><br/>sahai@eecs.berkeley.edu
+  </div>
+  <div class='col-md-3 center col-sm-4 col-xs-6'>
+    <a target="_blank" class='img-link' href="http://rfic.eecs.berkeley.edu/~niknejad/"><img class='headshot img-circle' src='src/niknejad.jpg'/></a>
+    <br/><a target="_blank" href="http://rfic.eecs.berkeley.edu/~niknejad/">Ali Niknejad</a></strong><br/>niknejad@eecs.berkeley.edu
+  </div>
+</div>
+<h3>GSIs</h3>
+<div class='row'>
+  <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+    <img class='headshot img-circle' src='src/claire_resized.jpg'/>
+    <b>Claire Lochner</b><br/>Head Administrative TA<br/>claire_ee16a@<br/>
+  </div>
+  <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+    <img class='headshot img-circle' src='src/adrien_resized.jpg'/>
+    <b>Adrien Pierre</b><br/>Lab TA<br/>apierre+ee16a@<br/>
+  </div>
+  <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+    <img class='headshot img-circle' src='src/ChenyangYuan_resized.jpg'/>
+    <b>Chenyang Yuan</b><br/>Discussion TA<br/>chenyang.yuan@<br/>
+  </div>
+  <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+    <img class='headshot img-circle' src='src/CJ_resized1.jpg'/>
+    <b>CJ Geering</b><br/>Lab TA<br/>cj-ee16a@<br/>
+  </div>
+  <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+    <img class='headshot img-circle' src='src/DanielAranki_resized.jpg'/>
+    <b>Daniel Aranki</b><br/>Discussion TA<br/>danielaranki-ee16a@<br/>
+  </div>
+  <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+    <img class='headshot img-circle' src='src/DanCalderone_resized.jpg'/>
+    <b>Dan Calderone</b><br/>Discussion TA<br/>dan_ee16a@<br/>
+  </div>
+  <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+    <img class='headshot img-circle' src='src/Eddie_resized.jpg'/>
+    <b>Eddie Groshev</b><br/>Discussion TA<br/>e.g+ee16a@<br/>
+  </div>
+  <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+    <img class='headshot img-circle' src='src/Ena_resized.jpg'/>
+    <b>Ena Hariyoshi</b><br/>Discussion TA<br/>ehariyoshi@<br/>
+  </div>
+  <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+    <img class='headshot img-circle' src='src/FilipMaksimovic_resized.jpg'/>
+    <b>Filip Maksimovic</b><br/>Discussion/Lab TA<br/>archibald@eecs.<br/>
+  </div>
+  <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+    <img class='headshot img-circle' src='src/JaedukHan_resized.jpg'/>
+    <b>Jaeduk Han</b><br/>Lab TA<br/>jaeduk-ee16a@<br/>
+  </div>
+  <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+    <img class='headshot img-circle' src='src/JenniferShih_resized.jpg'/>
+    <b>Jennifer Shih</b><br/>Discussion TA<br/>cshih@<br/>
+  </div>
+  <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+    <img class='headshot img-circle' src='src/Joe_resized.jpg'/>
+    <b>Joe Corea</b><br/>Lab TA<br/>jrcorea@<br/>
+  </div>
+  <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+    <img class='headshot img-circle' src='src/JoeyGreenspun_resized.jpg'/>
+    <b>Joey Greenspun</b><br/>Lab TA<br/>kody@eecs.<br/>
+  </div>
+  <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+    <img class='headshot img-circle' src='src/KeneAkametalu_resized.jpg'/>
+    <b>Kene Akametalu</b><br/>Discussion TA<br/>kakametalu@<br/>
+  </div>
+  <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+    <img class='headshot img-circle' src='src/LeahDickstein_resized.jpg'/>
+    <b>Leah Dickstein</b><br/>Disussion TA<br/>leahdickstein-ee16a@<br/>
+  </div>
+  <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+    <img class='headshot img-circle' src='src/OrhanOcal_resized.jpg'/>
+    <b>Orhan Ocal</b><br/>Lab TA<br/>orhan-ee16a@<br/>
+  </div>
+  <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+    <img class='headshot img-circle' src='src/PaulRigge_resized.jpg'/>
+    <b>Paul Rigge</b><br/>Disussion TA<br/>rigge-ee16a@<br/>
+  </div>
+  <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+    <img class='headshot img-circle' src='src/PreetumNakkiran_resized.jpg'/>
+    <b>Preetum Nakkiran</b><br/>Discussion TA<br/>preetum@<br/>
+  </div>
+  <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+    <img class='headshot img-circle' src='src/reia_resized2.jpg'/>
+    <b>Reia Cho</b><br/>Lab TA<br/>chor346@<br/>
+  </div>
+  <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+    <img class='headshot img-circle' src='src/StellaWalla_resized.jpg'/>
+    <b>Stella Walla</b><br/>Discussion TA<br/>stella.walla@<br/>
+  </div>
+  <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+    <img class='headshot img-circle' src='src/VidyaMuthukumar_resized.jpg'/>
+    <b>Vidya Muthukumar</b><br/>Disussion TA<br/>ee16a_vidya@<br/>
+  </div>
+  <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+    <br/><br/><br/><br/><b>Please add berkeley.edu to the end of all emails</b>
+  </div>
+</div>
+
+
+<div class='row'>
+<a class="anchor" id="resources"></a>
+<h2>Resources</h2>
+<h3><a target="_blank" href="https://piazza.com/class/icgvkl3p4x5m0">Piazza</a> (Ask Questions Here)</h3>
+<h3>Recommended Text</h3>
+<ul>
+<li><a target="_blank" href="http://www.amazon.com/Schaums-Outline-Linear-Algebra-Edition/dp/0071794565">Linear Algebra</a> by Lipschutz, Seymour and Lipson, Marc, Schaum's Outlines, 5th Ed.</li>
+<li><a target="_blank" href="http://www.amazon.com/Schaums-Outline-Electric-Circuits-Outlines/dp/0071830456">Electric Circuits</a> by Nahvi, Mahmood and Edminister, Joseph, Schaum's Outlines, 6th Ed.</li>
+</ul>
+<h3>Additional Reader Text</h3>
+<ul>
+<li><a target="_blank" href="https://d1b10bmlvqabco.cloudfront.net/attach/icgvkl3p4x5m0/gyor3wfgyon205/if0gvqrkz0ue/edogs2.pdf">ELECTRONICS Reader</a> by Ali M. Niknejad <a target="_blank" href="https://d1b10bmlvqabco.cloudfront.net/attach/icgvkl3p4x5m0/gyor3wfgyon205/if0gzqqzwtg7/ee16_electronics.pdf">(smaller file without links)</a></li>
+</ul>
+<h3>Setting up How-To's</h3>
+<ul>
+<li><a target="_blank" href="https://www.youtube.com/watch?v=irwlU7esODA">Video Tutorial to Connect From Home</a></li>
+<li><a target="_blank" href="http://inst.eecs.berkeley.edu/~ee16a/fa15/installation.html">Installation Scripts</a></li>
+<li><a target="_blank" href="http://inst.eecs.berkeley.edu/~ee16a/fa15/dis/0Tu/q_install.pdf">Instructions for Setting Up Instructional Account</a></li>
+</ul>
+<h3>Youtube Channel</h3>
+<h4><li><a target="_blank" href="http://video.citris.berkeley.edu/playlists/ee16a/">LIVE VIDEO</a> will be available 5 min before lecture.</li></h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLkFD6_40KJIx07ut92ucpUDbG38LZ9KXP" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+<div class='row'>
+<a class="anchor" id="policies"></a>
+<h2>Policies</h2>
+
+<h3>Course Info</h3>
+<p>The EECS 16 series (Designing Information Devices and Systems) is a pair of freshman-level courses introducing students to EECS, with a particular emphasis on how we deal with systems interacting with the world from an information point of view. Mathematical modeling is an important theme throughout these courses and students will learn many conceptual tools along the way. Throughout this series, generally applicable concepts and techniques are motivated by and rooted in specific exemplar application domains. Students should always understand why you are learning something.  This first course focuses on modeling as abstraction -- a way to see the important underlying structure in a problem -- and introduces the basics of linear modeling, largely from a "static" and deterministic point of view. The next course deepens the understanding of linear modeling and introduces dynamics and control along with different applications. Finally, EECS 70 (which can be thought of as the third course in this sequence --- except without any labs), introduces more discrete structures for modeling problems as well as bringing in probability. </p>
+<p>In EECS 16A in particular, we are going to use the application domains of imaging and tomography, touchscreens, GPS and localization, and wireless communication to motivate and inspire. Along the way, we will learn the basics of linear algebra and more importantly, the linear-algebraic way of looking at the world. Our emphasis will be on modeling and using linear structure to solve problems, not on how to do computations. We will learn about linear circuits not just as a powerful and creative way to help connect the physical world to what we can process computationally, but also as an exemplar of linearity and as a vehicle for learning how to do design. Circuits also provide a very concrete setting in which to learn the key concept of "equivalence" --- an important aspect of abstraction. Our hope is that the concepts you learn in EECS 16A will help you as you tackle more advanced courses and will help form a solid conceptual framework that will help you learn throughout your career. </p>
+
+<h3>Grade Breakdown</h3>
+<script src="js/Chart.Core.js"></script>
+<script src="js/Chart.Doughnut.js"></script>
+<div class='col-md-3 col-sm-4 col-xs-6'>
+<br/>
+<ul>
+<li>Homework: 15%</li>
+<li>Labs: 15%</li>
+<li>Midterms: 30%</li>
+<li>Final: 30%</li>
+<li>Participation: 10%</li>
+</ul>
+</div>
+
+  <div id="canvasParent" class='col-md-3 col-sm-4 col-xs-5' style="position:relative">
+    <canvas id="gradeBreakdown" style='width:100%'></canvas>
+  </div>
+</div>
+
+<div class='row'>
+<h3>Homework Party</h3>
+<p>Every week there will be a "homework party." This is completely optional. GSIs will be present in shifts as will some readers. Students are expected to help each other out, and if desired, form ad-hoc "pickup" homework groups in the style of a pickup basketball game.</p>
+
+
+<h3>Homework Grading</h3>
+<p> The primary way that the homework will be graded is by yourselves. Homework is always due Mondays at noon. You need to turn in both your code in the form of an ipynb file and a .pdf file consisting of your written-up solutions that also includes a "printout" of your code. </p>
+
+<p>After the HW deadline, official solutions will be posted online and then you will be expected to read them and enter your own scores and comments for every part of every problem in the homework on a simple coarse scale:</p>
+<p>0 = didn't attempt or very very wrong, <br>
+2 = got started and made some progress, but went off in the wrong direction or with no clear direction, <br>
+5 = right direction and got half-way there, <br>
+8 = mostly right but a minor thing missing or wrong, <br>
+10 = 100% correct.
+</p>
+
+<p>Note: all partial credit must be justified with a comment. If you are really confused about how to grade a particular problem, you are given a limited number of "I don't know" skips that you can use on every assignment. You always get at least two, and more if the HW has lots of parts. This is not supposed to be a stressful process and the skips are there to let you not obsess about how to grade any one part.</p>
+
+<p> Your self-grades will be due Thursday at noon after the homework deadline
+and if you don't properly enter any grades by the self-grading deadline, you
+are giving yourself a zero on that assignment. Just doing the homework is not
+enough, you have to do the homework, turn it in on time, read the solutions,
+do the self-grades, and turn them in on time. Unless all of these steps are
+done, <strong>you get a zero for that assignment</strong>. We will be dropping your
+lowest-scored homework from your final grade calculation, so getting a single
+zero on a HW is not the end of the world.
+
+
+<p>JJust like we encourage you to use a study group for doing your homework, we strongly encourage you to have others help you in grading your assignments while you help grade theirs. This will also help you avoid self-favoritism.</p>
+
+<p>The readers are going to be grading and sending you occasional comments.  Because we have reader grades, we will catch any attempts at trying to inflate your own scores. This will be considered cheating and is definitely not worth the risk. Your own scores will be used in computing your final grade for the course, adjusted a bit by taking into account reader scores so that everyone is effectively fairly graded on the same scale. (E.g. If we notice that you statistically tend to shade 8s into 5s a bit much as compared to the readers looking at your homeworks, we will apply a correction to pull your scores up a bit.)</p>
+
+<p>If you have any questions, please ask on Piazza.</p>
+
+<p>Extra credit will be available for many creative activities including helping us debug issues with the class and coming up with constructive solutions. (For example: creating practice problems with solutions, providing patches to bugs in labs and homeworks, etc...) Talk with your GSI in person or post on Piazza if you want to get feedback from the entire class.</p>
+
+
+<h3>Course Communication</h3>
+<p>The instructors and TA will post announcements, clarifications, hints, etc. on <!--a target="_blank" href="https://piazza.com/class/i4ukt4bqz5i5hn"-->Piazza<!--/a-->. Hence you must check the EE16a Piazza page frequently throughout the term. (You should already have access to the EE16a Spring 2015 forum. If you do not, please let us know.) If you have a question, your best option is to post a message there. The staff (instructors and TAs) will check the forum regularly, and if you use the forum, other students will be able to help you too. When using the forum, please avoid off-topic discussions, and please do not post answers to homework questions before the homework is due. </p>
+<p>If your question is personal or not of interest to other students, you may mark your question as private on Piazza, so only the instructors will see it. If you wish to talk with one of us individually, you are welcome to come to our office hours. Please reserve email for the questions you can't get answered in office hours, in discussion sections, or through the forum. </p>
+<p>It can be challenging for the instructors to gauge how smoothly the class is going. We always welcome any feedback on what we could be doing better. If you would like to send anonymous comments or criticisms, please feel free to use an anonymous remailer like <a target="_blank" href="http://gilc.org/speech/anonymous/remailer.html">this one</a> to avoid revealing your identity.</p>
+
+
+
+<h3>Collaboration</h3>
+<p>You are encouraged to work on homework problems in study groups of
+two to four people; however, you must <strong>always</strong> write up
+the solutions on your own. Similarly, you may use books or online
+resources to help solve homework problems, but you must always credit
+all such sources in your writeup and you must never copy material
+verbatim. We believe that most students can distinguish between
+helping other students and cheating. Explaining the meaning of a
+question, discussing a way of approaching a solution, or
+collaboratively exploring how to solve a problem within your group is
+an interaction that we strongly encourage. But you should write your
+homework solution strictly by yourself so that your hands and eyes can
+help you internalize this material.You should
+acknowledge everyone whom you have worked with or who has given you
+any significant ideas about the homework. This is good scholarly
+conduct. </p>
+<br/>
+
+
+<h3>Don't Be Afraid to Ask for Help</h3>
+<p>Are you struggling? Please come talk to us We would much rather deal with
+misunderstanding early on, and we can help. Even if
+you are convinced that you are the only person in the class that
+doesn't understand the material, and that it is entirely your fault
+for having fallen behind, please overcome any feelings of guilt and
+ask for help as soon as you need it -- we can almost guarantee you're not the only person who feels this way. Don't
+hesitate to ask us for help -- we really do care that you learn! </p>
+
+
+<h3>Advice</h3>
+<p>The following tips are offered based on our experience.</p>
+<p><strong>Do the homeworks!</strong> The homeworks are explicitly designed to help you to learn the material as you go along. Although the numerical weight of the homeworks is not huge, there is usually a strong correlation between homework scores and final grades in the class. </p>
+<p><strong>Take part in discussion sections!</strong> Discussion sections are not auxiliary lectures. They are an opportunity for interactive learning. The success of a discussion section depends largely on the willingness of students to participate actively in it. As with office hours, the better prepared you are for the discussion, the more you are likely to get out of it.</p>
+
+<p><strong>Form study groups!</strong> As stated above, you are encouraged to form small groups (two to four people) to work together on homeworks and on understanding the class material on a regular basis. In addition to being fun, this can save you a lot of time by generating ideas quickly and preventing you from getting hung up on some point or other. Of course, it is your responsibility to ensure that you contribute actively to the group; passive listening will likely not help you much. And recall the caveat above that you must write up your solutions on your own. You are strongly advised you to spend some time on your own thinking about each problem before you meet with your study partners; this way, you will be in a position to compare ideas with your partners, and it will get you in practice for the exams. Make sure you work through all problems yourself. Some groups try to split up the problems ("you do Problem 1, I'll do Problem 2, then we'll swap notes"); not only is this a punishable violation of our collaboration policies, it also ensures you will learn a lot less from this course. </p>
+</div>
+
+<br/>
+
+
+    <script src="js/gradeBreakdown.js"></script>
+    <script src="js/highlightCalendar.js"></script>
+
+</div>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="bootstrap-dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+
+</body>
+</html>
