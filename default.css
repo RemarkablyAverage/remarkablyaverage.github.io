@@ -635,6 +635,24 @@ ul.contact li a.icon-rss:before
 	margin-top: 2em;
 }
 
+
+#wrapper5
+{
+	background: #FFF;
+}
+
+#page
+{
+	overflow: hidden;
+	padding: 6em 0em 6em 0em;
+	background: #FFF;
+}
+
+#page .button
+{
+	margin-top: 2em;
+}
+
 /*********************************************************************************/
 /* Content                                                                       */
 /*********************************************************************************/
@@ -644,6 +662,7 @@ ul.contact li a.icon-rss:before
 		float: left;
 		width: 700px;
 	}
+
 
 /*********************************************************************************/
 /* Sidebar                                                                       */
