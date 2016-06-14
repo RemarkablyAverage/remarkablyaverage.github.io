@@ -1,0 +1,7 @@
+I am currently an undergraduate at UC Berkeley studying Electrical Engineering and Computer Science  (May '17) and working in Prof. Lior Pachter's group for RNA-sequencing as well as Prof. Satish Rao's group for (phylogenetic) algorithms in computational biology.
+
+As a brief aside, I can code in Python, Java, C, SQLite, Scheme, HTML, CSS, LaTex, Shiny, and R. I can also do some electrical engineering stuff such as digital signal processing and circuit design. 
+
+Some mathematics I am familiar with include Integral, Differential, Vector, Multivariable, Lambda Calculi, (Partial) Differential Equations, Linear Algebra, Discrete Mathematics, Probability Theory, (some) Statistics, and (some) Algebra.
+
+More information can be found here at http://daniel-li.me
