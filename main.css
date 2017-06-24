@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+body {
+  max-width: 400px;
+  padding: 10px;
+  margin: 80px;
+  margin-top: 40px;
+  color: #263238;
+  background-color: #F1F0F0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+#information {
+  max-width: 500px;
+}
+
+p {
+  line-height: 25pt;
+}
+
+a:link {
+  color: #039BE5;
+}
+
+a:hover {
+  color: #29B6F6 !important;
+}
+
+/*h1, h2, h3, h4, h5 {
+  color: #03A9F4;
+}*/
+
+a:visited {
+  color: #039BE5;
+}
+
+body {
+  text-transform: lowercase;
+}
