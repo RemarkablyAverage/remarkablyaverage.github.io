@@ -1,7 +1,0 @@
-To whom it may concern: 
-
-I am currently a PhD student at Columbia University in machine learning, previously I was a M.Sc and B.Sc student in computer science at UC Berkeley.
-
-Briefly, my research is in computer vision for medical imaging and previously, natural language. My most recent work was on understanding medical imaging in context, "Exploring Cellular Protein Localization Through Semantic Image Synthesis" (under review at ICLR 2020, https://openreview.net/forum?id=Byg9AR4YDB, I apologize if the individual reading this turns out to be my reviewer). My previous work has been in language with memory networks "Adaptive Memory Networks" (ICLR 2018 workshop & NIPS workshop, https://openreview.net/forum?id=SJZ2Mf-0-).
-
-Please find my CV attached.
